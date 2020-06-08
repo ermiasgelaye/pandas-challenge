@@ -82,7 +82,7 @@ school_data_complete.head()
 
 ### School Summary
 
-* An overview table that summarizes key metrics about each school created in the following metrics
+* An overview table that summarizes key metrics about each school was created in the following metrics
   * School Name
   * School Type
   * Total Students
@@ -282,7 +282,7 @@ school_data_complete.head()
 
 ### Top Performing Schools (By % Overall Passing)
 
-* Create a table that highlights the top 5 performing schools based on % Overall Passing. Include:
+* A table that highlights the top 5 performing schools based on % Overall Passing was created and it includes the following metrics.
   * School Name
   * School Type
   * Total Students
@@ -293,6 +293,9 @@ school_data_complete.head()
   * % Passing Math (The percentage of students that passed math.)
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
+  
+Top Performing Schools (By % Overall Passing) table looks as follows:
+
 <table id="T_8d9ff59e_a90d_11ea_b01d_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">School Type</th>        <th class="col_heading level0 col1">Total Students</th>        <th class="col_heading level0 col2">Total School Budget</th>        <th class="col_heading level0 col3">Per Student Budget</th>        <th class="col_heading level0 col4">Average Math Score</th>        <th class="col_heading level0 col5">Average Reading Score</th>        <th class="col_heading level0 col6">% Passing Math</th>        <th class="col_heading level0 col7">% Passing Reading</th>        <th class="col_heading level0 col8">% Overall Passing</th>    </tr></thead><tbody>
                 <tr>
                         <th id="T_8d9ff59e_a90d_11ea_b01d_8863df8cd0c9level0_row0" class="row_heading level0 row0">Cabrera High School</th>
@@ -359,7 +362,10 @@ school_data_complete.head()
 
 ### Bottom Performing Schools (By % Overall Passing)
 
-* Create a table that highlights the bottom 5 performing schools based on % Overall Passing. Include all of the same metrics as above.
+* A table that highlights the bottom 5 performing schools based on % Overall Passing was created Include all of the same metrics as above.
+
+Bottom Performing Schools (By % Overall Passing) table looks as follows:
+
 <table id="T_8da1e836_a90d_11ea_b01d_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">School Type</th>        <th class="col_heading level0 col1">Total Students</th>        <th class="col_heading level0 col2">Total School Budget</th>        <th class="col_heading level0 col3">Per Student Budget</th>        <th class="col_heading level0 col4">Average Math Score</th>        <th class="col_heading level0 col5">Average Reading Score</th>        <th class="col_heading level0 col6">% Passing Math</th>        <th class="col_heading level0 col7">% Passing Reading</th>        <th class="col_heading level0 col8">% Overall Passing</th>    </tr></thead><tbody>
                 <tr>
                         <th id="T_8da1e836_a90d_11ea_b01d_8863df8cd0c9level0_row0" class="row_heading level0 row0">Rodriguez High School</th>
@@ -426,7 +432,10 @@ school_data_complete.head()
 
 ### Math Scores by Grade
 
-* Create a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+* A table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school was created.
+
+Math Scores by Grade table looks as follows:
+
 <table id="T_8da8ee10_a90d_11ea_b01d_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">9th</th>        <th class="col_heading level0 col1">10th</th>        <th class="col_heading level0 col2">11th</th>        <th class="col_heading level0 col3">12th</th>    </tr>    <tr>        <th class="index_name level0">School Name</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
                 <tr>
                         <th id="T_8da8ee10_a90d_11ea_b01d_8863df8cd0c9level0_row0" class="row_heading level0 row0">Bailey High School</th>
@@ -538,7 +547,10 @@ school_data_complete.head()
 
 ### Reading Scores by Grade
 
-* Create a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+* A table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school was created.
+
+Math Scores by Grade table looks as follows:
+
 <table id="T_8daf7eb0_a90d_11ea_b01d_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">9th</th>        <th class="col_heading level0 col1">10th</th>        <th class="col_heading level0 col2">11th</th>        <th class="col_heading level0 col3">12th</th>    </tr>    <tr>        <th class="index_name level0">School Name</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
                 <tr>
                         <th id="T_8daf7eb0_a90d_11ea_b01d_8863df8cd0c9level0_row0" class="row_heading level0 row0">Bailey High School</th>
@@ -650,7 +662,7 @@ school_data_complete.head()
 
 ### Scores by School Spending
 
-* Create a table that breaks down school performances based on average Spending Ranges (Per Student). Use 4 reasonable bins to group school spending. Include in the table each of the following:
+* A table that breaks down school performances based on average Spending Ranges (Per Student), and 4 reasonable bins to group school spending was created.The table includes each of the following:
   * Average Math Score
   * Average Reading Score
   * % Passing Math (The percentage of students that passed math.)
@@ -725,14 +737,8 @@ school_data_complete.head()
 
 ### Scores by School Type
 
-* Repeat the above breakdown, but this time group schools based on school type (Charter vs. District).
-
-As final considerations:
-
-* Use the pandas library and Jupyter Notebook.
-* You must submit a link to your Jupyter Notebook with the viewable Data Frames.
-* You must include a written description of at least two observable trends based on the data.
-* See [Example Solution](PyCitySchools/PyCitySchools_starter.ipynb) for a reference on the expected format.
+*  Finally a solution that group schools based on school type (Charter vs. District) was created.
+Scores by School Type table looks as follows:
 
 <table id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">Average Math Score</th>        <th class="col_heading level0 col1">Average Reading Score</th>        <th class="col_heading level0 col2">% Passing Math</th>        <th class="col_heading level0 col3">% Passing Reading</th>        <th class="col_heading level0 col4">% Overall Passing</th>    </tr>    <tr>        <th class="index_name level0">Type of School</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
                 <tr>
