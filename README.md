@@ -13,7 +13,7 @@ This repository brings a python pandas solution in the education sector to analy
 
 * The school summary finding showed that from 15 schools 7 of them are found at the district level, and the other 8 of them found at the charter level. The number of students in schools ranged between 427 students (Holden High School) to 4976 students (Bailey High School). The general finding also showed that district schools have more students than charter schools. It is legitimate to conclude that district schools have more students than charter schools because of their geographical coverage.
 
-* The total budget field of the school summery showed the amount of money each school consumed. The maximum budget is $3,124,928.00 its     Bailey High School, and the lower budget is $248,087.00 its Holden High School. Regarding budget per student, Huang High School ( $655.000) is a higher budget allocator per student, and Wilson High School ($578.00) allocates a lower budget per student.	  
+* The total budget field of the school summery showed the amount of money each school consumed. The maximum budget is $3,124,928.00 its     Bailey High School, and the lower budget is $248,087.00 its Holden High School. Regarding budget per student, Huang High School ( $655.000) is a higher budget allocator per student, and Wilson High School ($578.00) allocates a lower budget per student. The total district schools budget ( $17,347,923.00) is higher than Charter schools budget ($7,301,505.00), however, when we come to the total allocation Budget  Per Student charter schools ( $4,505.00) allocation is greater than district schools ( $4,796.00).	This may due to charter schools have a smaller number of students.   
 
 * 
 
