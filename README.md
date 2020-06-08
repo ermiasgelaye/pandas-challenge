@@ -294,7 +294,7 @@ school_data_complete.head()
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
   
-Top Performing Schools (By % Overall Passing) table looks as follows:
+A table of Top Performing Schools (By % Overall Passing) looks as follows:
 
 <table id="T_8d9ff59e_a90d_11ea_b01d_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">School Type</th>        <th class="col_heading level0 col1">Total Students</th>        <th class="col_heading level0 col2">Total School Budget</th>        <th class="col_heading level0 col3">Per Student Budget</th>        <th class="col_heading level0 col4">Average Math Score</th>        <th class="col_heading level0 col5">Average Reading Score</th>        <th class="col_heading level0 col6">% Passing Math</th>        <th class="col_heading level0 col7">% Passing Reading</th>        <th class="col_heading level0 col8">% Overall Passing</th>    </tr></thead><tbody>
                 <tr>
@@ -364,7 +364,7 @@ Top Performing Schools (By % Overall Passing) table looks as follows:
 
 * A table that highlights the bottom 5 performing schools based on % Overall Passing was created Include all of the same metrics as above.
 
-Bottom Performing Schools (By % Overall Passing) table looks as follows:
+A table of Bottom Performing Schools (By % Overall Passing) looks as follows:
 
 <table id="T_8da1e836_a90d_11ea_b01d_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">School Type</th>        <th class="col_heading level0 col1">Total Students</th>        <th class="col_heading level0 col2">Total School Budget</th>        <th class="col_heading level0 col3">Per Student Budget</th>        <th class="col_heading level0 col4">Average Math Score</th>        <th class="col_heading level0 col5">Average Reading Score</th>        <th class="col_heading level0 col6">% Passing Math</th>        <th class="col_heading level0 col7">% Passing Reading</th>        <th class="col_heading level0 col8">% Overall Passing</th>    </tr></thead><tbody>
                 <tr>
@@ -434,7 +434,7 @@ Bottom Performing Schools (By % Overall Passing) table looks as follows:
 
 * A table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school was created.
 
-Math Scores by Grade table looks as follows:
+A table of Math Scores by Grade looks as follows:
 
 <table id="T_8da8ee10_a90d_11ea_b01d_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">9th</th>        <th class="col_heading level0 col1">10th</th>        <th class="col_heading level0 col2">11th</th>        <th class="col_heading level0 col3">12th</th>    </tr>    <tr>        <th class="index_name level0">School Name</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
                 <tr>
@@ -549,7 +549,7 @@ Math Scores by Grade table looks as follows:
 
 * A table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school was created.
 
-Math Scores by Grade table looks as follows:
+A table of Reading Scores by Grade looks as follows:
 
 <table id="T_8daf7eb0_a90d_11ea_b01d_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">9th</th>        <th class="col_heading level0 col1">10th</th>        <th class="col_heading level0 col2">11th</th>        <th class="col_heading level0 col3">12th</th>    </tr>    <tr>        <th class="index_name level0">School Name</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
                 <tr>
@@ -668,7 +668,9 @@ Math Scores by Grade table looks as follows:
   * % Passing Math (The percentage of students that passed math.)
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
-  
+ 
+ A table of Scores by School Spending looks as follows:
+ 
 <table id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">Average Math Score</th>        <th class="col_heading level0 col1">Average Reading Score</th>        <th class="col_heading level0 col2">% Passing Math</th>        <th class="col_heading level0 col3">% Passing Reading</th>        <th class="col_heading level0 col4">% Overall Passing</th>    </tr>    <tr>        <th class="index_name level0">Per Student Budget</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
                 <tr>
                         <th id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9level0_row0" class="row_heading level0 row0">&lt;$584</th>
@@ -708,6 +710,9 @@ Math Scores by Grade table looks as follows:
 ### Scores by School Size
 
 * Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
+
+ A table of Scores by School Size looks as follows:
+ 
 <table id="T_477df728_a949_11ea_ac65_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">Average Math Score</th>        <th class="col_heading level0 col1">Average Reading Score</th>        <th class="col_heading level0 col2">% Passing Math</th>        <th class="col_heading level0 col3">% Passing Reading</th>        <th class="col_heading level0 col4">% Overall Passing</th>    </tr>    <tr>        <th class="index_name level0">Total Students</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
                 <tr>
                         <th id="T_477df728_a949_11ea_ac65_8863df8cd0c9level0_row0" class="row_heading level0 row0">Small (&lt;1000)</th>
@@ -738,7 +743,8 @@ Math Scores by Grade table looks as follows:
 ### Scores by School Type
 
 *  Finally a solution that group schools based on school type (Charter vs. District) was created.
-Scores by School Type table looks as follows:
+
+A table of Scores by School Type looks as follows:
 
 <table id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">Average Math Score</th>        <th class="col_heading level0 col1">Average Reading Score</th>        <th class="col_heading level0 col2">% Passing Math</th>        <th class="col_heading level0 col3">% Passing Reading</th>        <th class="col_heading level0 col4">% Overall Passing</th>    </tr>    <tr>        <th class="index_name level0">Type of School</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
                 <tr>
