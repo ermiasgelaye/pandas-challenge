@@ -1,4 +1,4 @@
-## Option 2: PyCitySchools
+## PyCitySchools
 
 ![Education](Images/education.png)
 
