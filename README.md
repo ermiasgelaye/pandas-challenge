@@ -657,32 +657,41 @@ school_data_complete.head()
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
   
-<table id="T_477df728_a949_11ea_ac65_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">Average Math Score</th>        <th class="col_heading level0 col1">Average Reading Score</th>        <th class="col_heading level0 col2">% Passing Math</th>        <th class="col_heading level0 col3">% Passing Reading</th>        <th class="col_heading level0 col4">% Overall Passing</th>    </tr>    <tr>        <th class="index_name level0">Total Students</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
+<table id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">Average Math Score</th>        <th class="col_heading level0 col1">Average Reading Score</th>        <th class="col_heading level0 col2">% Passing Math</th>        <th class="col_heading level0 col3">% Passing Reading</th>        <th class="col_heading level0 col4">% Overall Passing</th>    </tr>    <tr>        <th class="index_name level0">Per Student Budget</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
                 <tr>
-                        <th id="T_477df728_a949_11ea_ac65_8863df8cd0c9level0_row0" class="row_heading level0 row0">Small (&lt;1000)</th>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col0" class="data row0 col0">83.828654</td>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col1" class="data row0 col1">83.828654</td>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col2" class="data row0 col2">93.952484</td>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col3" class="data row0 col3">96.040317</td>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col4" class="data row0 col4">90.136789</td>
+                        <th id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9level0_row0" class="row_heading level0 row0">&lt;$584</th>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row0_col0" class="data row0 col0">83.36</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row0_col1" class="data row0 col1">83.96</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row0_col2" class="data row0 col2">93.70</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row0_col3" class="data row0 col3">96.69</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row0_col4" class="data row0 col4">90.64</td>
             </tr>
             <tr>
-                        <th id="T_477df728_a949_11ea_ac65_8863df8cd0c9level0_row1" class="row_heading level0 row1">Medium (1000-2000)</th>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col0" class="data row1 col0">83.372682</td>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col1" class="data row1 col1">83.372682</td>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col2" class="data row1 col2">93.616522</td>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col3" class="data row1 col3">96.773058</td>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col4" class="data row1 col4">90.624267</td>
+                        <th id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9level0_row1" class="row_heading level0 row1">$585-629</th>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row1_col0" class="data row1 col0">79.98</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row1_col1" class="data row1 col1">82.31</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row1_col2" class="data row1 col2">79.11</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row1_col3" class="data row1 col3">88.51</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row1_col4" class="data row1 col4">70.94</td>
             </tr>
             <tr>
-                        <th id="T_477df728_a949_11ea_ac65_8863df8cd0c9level0_row2" class="row_heading level0 row2">Large (2000-5000)</th>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col0" class="data row2 col0">77.477597</td>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col1" class="data row2 col1">77.477597</td>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col2" class="data row2 col2">68.652380</td>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col3" class="data row2 col3">82.125158</td>
-                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col4" class="data row2 col4">56.574046</td>
+                        <th id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9level0_row2" class="row_heading level0 row2">$630-644</th>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row2_col0" class="data row2 col0">77.82</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row2_col1" class="data row2 col1">81.30</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row2_col2" class="data row2 col2">70.62</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row2_col3" class="data row2 col3">82.60</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row2_col4" class="data row2 col4">58.84</td>
             </tr>
-    </tbody></table>
+            <tr>
+                        <th id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9level0_row3" class="row_heading level0 row3">$645-675</th>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row3_col0" class="data row3 col0">77.05</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row3_col1" class="data row3 col1">81.01</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row3_col2" class="data row3 col2">66.23</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row3_col3" class="data row3 col3">81.11</td>
+                        <td id="T_2f442c12_a94a_11ea_ac65_8863df8cd0c9row3_col4" class="data row3 col4">53.53</td>
+            </tr>
+    </tbody></table> 
+
 
 ### Scores by School Size
 
@@ -714,8 +723,6 @@ school_data_complete.head()
             </tr>
     </tbody></table>
 
-
-
 ### Scores by School Type
 
 * Repeat the above breakdown, but this time group schools based on school type (Charter vs. District).
@@ -745,9 +752,6 @@ As final considerations:
                         <td id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9row1_col4" class="data row1 col4">53.695878</td>
             </tr>
     </tbody></table>
-
-
-
 
 ## Observable Trends
 You must include a written description of three observable trends based on the data.
