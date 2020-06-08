@@ -9,7 +9,7 @@ This repository brings a python pandas solution in the education sector to analy
 
 ## Table of Contents
 
-* [District Summary](https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb)
+* [District Summary](### District Summary)
 * [School Summary](https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb)
 * [Top Performing Schools (By % Overall Passing)](https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb)
 * [Bottom Performing Schools (By % Overall Passing)](https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb)
@@ -22,7 +22,7 @@ This repository brings a python pandas solution in the education sector to analy
 
 ### District Summary
 
-* Create a high level snapshot (in table form) of the district's key metrics, including:
+* A high level snapshot (in table form) of the district's key metrics, including:
   * Total Schools
   * Total Students
   * Total Budget
