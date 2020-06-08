@@ -2,9 +2,18 @@
 
 ![Education](Images/education.png)
 
-Well done! Having spent years analyzing financial records for big banks, you've finally scratched your idealistic itch and joined the education sector. In your latest role, you've become the Chief Data Scientist for your city's school district. In this capacity, you'll be helping the  school board and mayor make strategic decisions regarding future school budgets and priorities.
 
-As a first task, you've been asked to analyze the district-wide standardized test results. You'll be given access to every student's math and reading scores, as well as various information on the schools they attend. Your responsibility is to aggregate the data to and showcase obvious trends in school performance.
+## Background
+
+This repository brings a python pandas solution in the education sector to analyze city's school district data.This project will help school board and mayor to make strategic decisions regarding future school budgets and priorities. This project used two datasets in csv format, one is [schools_complete.csv](Resources/schools_complete.csv) file wich includes the following informations in columns `Student ID`,`school_name`,`type`,`size`,`budget` the other dataset is [students_complete.csv](Resources/students_complete.csv) file which includes the followling information in columns `Student ID`,`student_name`,`gender`,`grade`,`school_name`,`reading_score`and `math_score`. For these analysis both datasets imported, merged, and the aggregate data diplayed in to python pandas dataframes. The analysis conducted in Jupyter notebook to showcase the following link is created: 
+
+
+
+
+To aggregate the data to and showcase obvious trends in school performance.
+
+
+ Your responsibility is to aggregate the data to and showcase obvious trends in school performance.
 
 Your final report should include each of the following:
 
