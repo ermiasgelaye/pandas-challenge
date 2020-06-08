@@ -44,7 +44,7 @@ school_data_complete.head()
 ```
 ### District Summary
 
-* A high level snapshot of the district's created on the following key metrics
+* A high level analysis on the district's created on the following key metrics
   * Total Schools
   * Total Students
   * Total Budget
