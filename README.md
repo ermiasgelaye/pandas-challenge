@@ -93,6 +93,192 @@ school_data_complete.head()
   * % Passing Math (The percentage of students that passed math.)
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
+ 
+ The summery table looks as follows: 
+  
+  <table id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" > 
+<thead>    <tr> 
+        <th class="blank level0" ></th> 
+        <th class="col_heading level0 col0" >School Type</th> 
+        <th class="col_heading level0 col1" >Total Students</th> 
+        <th class="col_heading level0 col2" >Total School Budget</th> 
+        <th class="col_heading level0 col3" >Per Student Budget</th> 
+        <th class="col_heading level0 col4" >Average Math Score</th> 
+        <th class="col_heading level0 col5" >Average Reading Score</th> 
+        <th class="col_heading level0 col6" >% Passing Math</th> 
+        <th class="col_heading level0 col7" >% Passing Reading</th> 
+        <th class="col_heading level0 col8" >% Overall Passing</th> 
+    </tr></thead> 
+<tbody>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row0" >Bailey High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row0_col0" class="data row0 col0" >District</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row0_col1" class="data row0 col1" >4976</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row0_col2" class="data row0 col2" >$3,124,928</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row0_col3" class="data row0 col3" >$628.00</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row0_col4" class="data row0 col4" >77.048432</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row0_col5" class="data row0 col5" >81.033963</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row0_col6" class="data row0 col6" >66.680064</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row0_col7" class="data row0 col7" >81.933280</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row0_col8" class="data row0 col8" >54.642283</td> 
+ 
+			
+ 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row1" >Cabrera High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col0" class="data row1 col0" >Charter</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col1" class="data row1 col1" >1,858</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col2" class="data row1 col2" >$1,081,356</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col3" class="data row1 col3" >$582</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col4" class="data row1 col4" >83.1</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col5" class="data row1 col5" >84.0</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col6" class="data row1 col6" >94.1%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col7" class="data row1 col7" >97.0%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col8" class="data row1 col8" >91.3%</td> 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row2" >Figueroa High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row2_col0" class="data row2 col0" >District</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row2_col1" class="data row2 col1" >2,949</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row2_col2" class="data row2 col2" >$1,884,411</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row2_col3" class="data row2 col3" >$639</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row2_col4" class="data row2 col4" >76.7</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row2_col5" class="data row2 col5" >81.2</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row2_col6" class="data row2 col6" >66.0%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row2_col7" class="data row2 col7" >80.7%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row2_col8" class="data row2 col8" >53.2%</td> 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row3" >Ford High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row3_col0" class="data row3 col0" >District</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row3_col1" class="data row3 col1" >2,739</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row3_col2" class="data row3 col2" >$1,763,916</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row3_col3" class="data row3 col3" >$644</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row3_col4" class="data row3 col4" >77.1</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row3_col5" class="data row3 col5" >80.7</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row3_col6" class="data row3 col6" >68.3%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row3_col7" class="data row3 col7" >79.3%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row3_col8" class="data row3 col8" >54.3%</td> 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row4" >Griffin High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row4_col0" class="data row4 col0" >Charter</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row4_col1" class="data row4 col1" >1,468</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row4_col2" class="data row4 col2" >$917,500</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row4_col3" class="data row4 col3" >$625</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row4_col4" class="data row4 col4" >83.4</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row4_col5" class="data row4 col5" >83.8</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row4_col6" class="data row4 col6" >93.4%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row4_col7" class="data row4 col7" >97.1%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row4_col8" class="data row4 col8" >90.6%</td> 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row5" >Hernandez High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row5_col0" class="data row5 col0" >District</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row5_col1" class="data row5 col1" >4,635</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row5_col2" class="data row5 col2" >$3,022,020</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row5_col3" class="data row5 col3" >$652</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row5_col4" class="data row5 col4" >77.3</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row5_col5" class="data row5 col5" >80.9</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row5_col6" class="data row5 col6" >66.8%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row5_col7" class="data row5 col7" >80.9%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row5_col8" class="data row5 col8" >53.5%</td> 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row6" >Holden High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row6_col0" class="data row6 col0" >Charter</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row6_col1" class="data row6 col1" >427</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row6_col2" class="data row6 col2" >$248,087</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row6_col3" class="data row6 col3" >$581</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row6_col4" class="data row6 col4" >83.8</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row6_col5" class="data row6 col5" >83.8</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row6_col6" class="data row6 col6" >92.5%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row6_col7" class="data row6 col7" >96.3%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row6_col8" class="data row6 col8" >89.2%</td> 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row7" >Huang High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row7_col0" class="data row7 col0" >District</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row7_col1" class="data row7 col1" >2,917</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row7_col2" class="data row7 col2" >$1,910,635</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row7_col3" class="data row7 col3" >$655</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row7_col4" class="data row7 col4" >76.6</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row7_col5" class="data row7 col5" >81.2</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row7_col6" class="data row7 col6" >65.7%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row7_col7" class="data row7 col7" >81.3%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row7_col8" class="data row7 col8" >53.5%</td> 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row8" >Johnson High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row8_col0" class="data row8 col0" >District</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row8_col1" class="data row8 col1" >4,761</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row8_col2" class="data row8 col2" >$3,094,650</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row8_col3" class="data row8 col3" >$650</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row8_col4" class="data row8 col4" >77.1</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row8_col5" class="data row8 col5" >81.0</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row8_col6" class="data row8 col6" >66.1%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row8_col7" class="data row8 col7" >81.2%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row8_col8" class="data row8 col8" >53.5%</td> 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row9" >Pena High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row9_col0" class="data row9 col0" >Charter</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row9_col1" class="data row9 col1" >962</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row9_col2" class="data row9 col2" >$585,858</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row9_col3" class="data row9 col3" >$609</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row9_col4" class="data row9 col4" >83.8</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row9_col5" class="data row9 col5" >84.0</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row9_col6" class="data row9 col6" >94.6%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row9_col7" class="data row9 col7" >95.9%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row9_col8" class="data row9 col8" >90.5%</td> 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row10" >Rodriguez High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row10_col0" class="data row10 col0" >District</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row10_col1" class="data row10 col1" >3,999</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row10_col2" class="data row10 col2" >$2,547,363</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row10_col3" class="data row10 col3" >$637</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row10_col4" class="data row10 col4" >76.8</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row10_col5" class="data row10 col5" >80.7</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row10_col6" class="data row10 col6" >66.4%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row10_col7" class="data row10 col7" >80.2%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row10_col8" class="data row10 col8" >53.0%</td> 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row11" >Shelton High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row11_col0" class="data row11 col0" >Charter</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row11_col1" class="data row11 col1" >1,761</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row11_col2" class="data row11 col2" >$1,056,600</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row11_col3" class="data row11 col3" >$600</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row11_col4" class="data row11 col4" >83.4</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row11_col5" class="data row11 col5" >83.7</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row11_col6" class="data row11 col6" >93.9%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row11_col7" class="data row11 col7" >95.9%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row11_col8" class="data row11 col8" >89.9%</td> 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row12" >Thomas High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row12_col0" class="data row12 col0" >Charter</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row12_col1" class="data row12 col1" >1,635</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row12_col2" class="data row12 col2" >$1,043,130</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row12_col3" class="data row12 col3" >$638</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row12_col4" class="data row12 col4" >83.4</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row12_col5" class="data row12 col5" >83.8</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row12_col6" class="data row12 col6" >93.3%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row12_col7" class="data row12 col7" >97.3%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row12_col8" class="data row12 col8" >90.9%</td> 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row13" >Wilson High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row13_col0" class="data row13 col0" >Charter</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row13_col1" class="data row13 col1" >2,283</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row13_col2" class="data row13 col2" >$1,319,574</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row13_col3" class="data row13 col3" >$578</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row13_col4" class="data row13 col4" >83.3</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row13_col5" class="data row13 col5" >84.0</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row13_col6" class="data row13 col6" >93.9%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row13_col7" class="data row13 col7" >96.5%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row13_col8" class="data row13 col8" >90.6%</td> 
+    </tr>    <tr> 
+        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row14" >Wright High School</th> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row14_col0" class="data row14 col0" >Charter</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row14_col1" class="data row14 col1" >1,800</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row14_col2" class="data row14 col2" >$1,049,400</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row14_col3" class="data row14 col3" >$583</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row14_col4" class="data row14 col4" >83.7</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row14_col5" class="data row14 col5" >84.0</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row14_col6" class="data row14 col6" >93.3%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row14_col7" class="data row14 col7" >96.6%</td> 
+        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row14_col8" class="data row14 col8" >90.3%</td> 
+    </tr></tbody> 
+</table> 
 
 ### Top Performing Schools (By % Overall Passing)
 
