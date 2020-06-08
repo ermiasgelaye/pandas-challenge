@@ -9,7 +9,7 @@ This repository brings a python pandas solution in the education sector to analy
 
 ## Observable Trends
 
-* In general, this dataset encompasses a total of 15 schools, 39,170 students, and the average reading score is 81.87 which is higher than the average math score 78.98. When we see the passing rate reading(85.80 % ) has a higher passing rate than math (74.98 % ), the overall passing rate is 65.17 %. These findings indicate that student's score more in reading than math, however, the difference is not that much big between classes.
+* In general, this dataset encompasses a total of 15 schools, 39,170 students. The total students average reading score is 81.87 which is higher than the average math score 78.98. When we see the passing rate reading(85.80 % ) has a higher passing rate than math (74.98 % ), the overall passing rate is 65.17%. These findings indicate that student's score more in reading than math.
 
 * The school summary finding showed that from 15 schools 7 of them are found at the district level, and the other 8 of them found at the charter level. The number of students in schools ranged between 427 students (Holden High School) to 4976 students (Bailey High School). The general finding also showed that district schools have more students than charter schools. It is legitimate to conclude that district schools have more students than charter schools because of their geographical coverage.
 
