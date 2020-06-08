@@ -95,9 +95,7 @@ school_data_complete.head()
   * % Overall Passing (The percentage of students that passed math **and** reading.)
  
  The school summery table looks as follows: 
-  
-  <style  type="text/css" >
-</style>  
+ 
 <table id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -294,7 +292,6 @@ school_data_complete.head()
   * % Overall Passing (The percentage of students that passed math **and** reading.)
   
   
-  <style  type="text/css" >
 </style>  
 <table id="T_1de965ee_9a44_11e7_a6d9_0c4de9c48691" > 
 <thead>    <tr> 
