@@ -291,8 +291,7 @@ school_data_complete.head()
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
   
-  
-</style>  
+ 
 <table id="T_1de965ee_9a44_11e7_a6d9_0c4de9c48691" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
@@ -368,7 +367,6 @@ school_data_complete.head()
 
 * Create a table that highlights the bottom 5 performing schools based on % Overall Passing. Include all of the same metrics as above.
 
-<style  type="text/css" >
 </style>  
 <table id="T_1ed7f1a8_9a44_11e7_847a_0c4de9c48691" > 
 <thead>    <tr> 
@@ -444,7 +442,7 @@ school_data_complete.head()
 ### Math Scores by Grade
 
 * Create a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-<style  type="text/css" >
+
 </style>  
 <table id="T_1ff67b80_9a47_11e7_bee4_0c4de9c48691" > 
 <thead>    <tr> 
@@ -556,7 +554,7 @@ school_data_complete.head()
 ### Reading Scores by Grade
 
 * Create a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-<style  type="text/css" >
+
 </style>  
 <table id="T_2989b59a_9a47_11e7_b434_0c4de9c48691" > 
 <thead>    <tr> 
@@ -673,8 +671,6 @@ school_data_complete.head()
   * % Passing Math (The percentage of students that passed math.)
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
-  
-  <style  type="text/css" >
 </style>  
 <table id="T_ee01b6a8_9a46_11e7_bfce_0c4de9c48691" > 
 <thead>    <tr> 
@@ -727,7 +723,6 @@ school_data_complete.head()
 
 * Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
 
-<style  type="text/css" >
 </style>  
 <table id="T_ec4503ec_9a46_11e7_902f_0c4de9c48691" > 
 <thead>    <tr> 
@@ -779,7 +774,6 @@ As final considerations:
 * You must submit a link to your Jupyter Notebook with the viewable Data Frames.
 * You must include a written description of at least two observable trends based on the data.
 * See [Example Solution](PyCitySchools/PyCitySchools_starter.ipynb) for a reference on the expected format.
-<style  type="text/css" >
 </style>  
 <table id="T_eaa9a600_9a46_11e7_a39f_0c4de9c48691" > 
 <thead>    <tr> 
