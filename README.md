@@ -9,16 +9,16 @@ This repository brings a python pandas solution in the education sector to analy
 
 ## Table of Contents
 
-* [District Summary](PyCitySchools/)
-* [School Summary](PyCitySchools/)
-* [Top Performing Schools (By % Overall Passing)](PyCitySchools/)
-* [Bottom Performing Schools (By % Overall Passing)](PyCitySchools/)
-* [Math Scores by Grade\*\*](PyCitySchools/)
-* [Reading Scores by Grade](PyCitySchools/)
-* [Scores by School Spending](PyCitySchools/)
-* [Scores by School Size](PyCitySchools/)
-* [Scores by School Type](PyCitySchools/)
-* [Observable Trends](PyCitySchools/)
+* [District Summary]((https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb) )
+* [School Summary]((https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb) )
+* [Top Performing Schools (By % Overall Passing)]((https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb) )
+* [Bottom Performing Schools (By % Overall Passing)]((https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb) )
+* [Math Scores by Grade\*\*]((https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb) )
+* [Reading Scores by Grade]((https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb) )
+* [Scores by School Spending]((https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb) )
+* [Scores by School Size]((https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb) )
+* [Scores by School Type]((https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb) )
+* [Observable Trends]((https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb) )
 
 ### District Summary
 
