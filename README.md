@@ -94,44 +94,23 @@ school_data_complete.head()
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
  
- The school summery table looks as follows: 
+ The school summery table looks as follows:
  
-<table id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" > 
-<thead>    <tr> 
-        <th class="blank level0" ></th> 
-        <th class="col_heading level0 col0" >School Type</th> 
-        <th class="col_heading level0 col1" >Total Students</th> 
-        <th class="col_heading level0 col2" >Total School Budget</th> 
-        <th class="col_heading level0 col3" >Per Student Budget</th> 
-        <th class="col_heading level0 col4" >Average Math Score</th> 
-        <th class="col_heading level0 col5" >Average Reading Score</th> 
-        <th class="col_heading level0 col6" >% Passing Math</th> 
-        <th class="col_heading level0 col7" >% Passing Reading</th> 
-        <th class="col_heading level0 col8" >Overall Passing Rate</th> 
-    </tr></thead> 
-<tbody>    <tr> 
-       <th id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9level0_row0" class="row_heading level0 row0">Bailey High School</th>
-         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row0_col0" class="data row0 col0">District</td>
-                         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row0_col1" class="data row0 col1">4976</td>
+ </style><table id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">School Type</th>        <th class="col_heading level0 col1">Total Students</th>        <th class="col_heading level0 col2">Total School Budget</th>        <th class="col_heading level0 col3">Per Student Budget</th>        <th class="col_heading level0 col4">Average Math Score</th>        <th class="col_heading level0 col5">Average Reading Score</th>        <th class="col_heading level0 col6">% Passing Math</th>        <th class="col_heading level0 col7">% Passing Reading</th>        <th class="col_heading level0 col8">% Overall Passing</th>    </tr></thead><tbody>
+                <tr>
+                        <th id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9level0_row0" class="row_heading level0 row0">Bailey High School</th>
+                        <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row0_col0" class="data row0 col0">District</td>
+                        <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row0_col1" class="data row0 col1">4976</td>
                         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row0_col2" class="data row0 col2">$3,124,928.00</td>
                         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row0_col3" class="data row0 col3">$628.00</td>
                         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row0_col4" class="data row0 col4">77.048432</td>
                         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row0_col5" class="data row0 col5">81.033963</td>
                         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row0_col6" class="data row0 col6">66.680064</td>
                         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row0_col7" class="data row0 col7">81.933280</td>
-                        <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row0_col8" class="data row0 col8">54.642283</td>                                       
-    </tr>    <tr> 
-        <th id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691" class="row_heading level0 row1" >Cabrera High School</th> 
-        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col0" class="data row1 col0" >Charter</td> 
-        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col1" class="data row1 col1" >1,858</td> 
-        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col2" class="data row1 col2" >$1,081,356</td> 
-        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col3" class="data row1 col3" >$582</td> 
-        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col4" class="data row1 col4" >83.1</td> 
-        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col5" class="data row1 col5" >84.0</td> 
-        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col6" class="data row1 col6" >94.1%</td> 
-        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col7" class="data row1 col7" >97.0%</td> 
-        <td id="T_1beb1fc6_9a44_11e7_9648_0c4de9c48691row1_col8" class="data row1 col8" >91.3%</td> 
-    <th id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9level0_row1" class="row_heading level0 row1">Cabrera High School</th>
+                        <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row0_col8" class="data row0 col8">54.642283</td>
+            </tr>
+            <tr>
+                        <th id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9level0_row1" class="row_heading level0 row1">Cabrera High School</th>
                         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row1_col0" class="data row1 col0">Charter</td>
                         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row1_col1" class="data row1 col1">1858</td>
                         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row1_col2" class="data row1 col2">$1,081,356.00</td>
@@ -297,9 +276,10 @@ school_data_complete.head()
                         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row14_col6" class="data row14 col6">93.333333</td>
                         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row14_col7" class="data row14 col7">96.611111</td>
                         <td id="T_8d9d78d2_a90d_11ea_b01d_8863df8cd0c9row14_col8" class="data row14 col8">90.333333</td>
-       
-    </tr></tbody> 
-</table>
+            </tr>
+    </tbody></table>
+ 
+
 ### Top Performing Schools (By % Overall Passing)
 
 * Create a table that highlights the top 5 performing schools based on % Overall Passing. Include:
