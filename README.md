@@ -657,88 +657,60 @@ school_data_complete.head()
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
   
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Average Math Score</th>
-      <th>Average Reading Score</th>
-      <th>% Passing Math</th>
-      <th>% Passing Reading</th>
-      <th>% Overall Passing</th>
-    </tr>
-    <tr>
-      <th>Per Student Budget</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>&lt;$584</th>
-      <td>83.363065</td>
-      <td>83.964039</td>
-      <td>93.702889</td>
-      <td>96.686558</td>
-      <td>90.640704</td>
-    </tr>
-    <tr>
-      <th>$585-629</th>
-      <td>79.982873</td>
-      <td>82.312643</td>
-      <td>79.109851</td>
-      <td>88.513145</td>
-      <td>70.939239</td>
-    </tr>
-    <tr>
-      <th>$630-644</th>
-      <td>77.821056</td>
-      <td>81.301007</td>
-      <td>70.623565</td>
-      <td>82.600247</td>
-      <td>58.841194</td>
-    </tr>
-    <tr>
-      <th>$645-675</th>
-      <td>77.049297</td>
-      <td>81.005604</td>
-      <td>66.230813</td>
-      <td>81.109397</td>
-      <td>53.528791</td>
-    </tr>
-  </tbody>
-</table>
+<table id="T_477df728_a949_11ea_ac65_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">Average Math Score</th>        <th class="col_heading level0 col1">Average Reading Score</th>        <th class="col_heading level0 col2">% Passing Math</th>        <th class="col_heading level0 col3">% Passing Reading</th>        <th class="col_heading level0 col4">% Overall Passing</th>    </tr>    <tr>        <th class="index_name level0">Total Students</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
+                <tr>
+                        <th id="T_477df728_a949_11ea_ac65_8863df8cd0c9level0_row0" class="row_heading level0 row0">Small (&lt;1000)</th>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col0" class="data row0 col0">83.828654</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col1" class="data row0 col1">83.828654</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col2" class="data row0 col2">93.952484</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col3" class="data row0 col3">96.040317</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col4" class="data row0 col4">90.136789</td>
+            </tr>
+            <tr>
+                        <th id="T_477df728_a949_11ea_ac65_8863df8cd0c9level0_row1" class="row_heading level0 row1">Medium (1000-2000)</th>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col0" class="data row1 col0">83.372682</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col1" class="data row1 col1">83.372682</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col2" class="data row1 col2">93.616522</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col3" class="data row1 col3">96.773058</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col4" class="data row1 col4">90.624267</td>
+            </tr>
+            <tr>
+                        <th id="T_477df728_a949_11ea_ac65_8863df8cd0c9level0_row2" class="row_heading level0 row2">Large (2000-5000)</th>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col0" class="data row2 col0">77.477597</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col1" class="data row2 col1">77.477597</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col2" class="data row2 col2">68.652380</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col3" class="data row2 col3">82.125158</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col4" class="data row2 col4">56.574046</td>
+            </tr>
+    </tbody></table>
 
 ### Scores by School Size
 
 * Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
-<table id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">Average Math Score</th>        <th class="col_heading level0 col1">Average Reading Score</th>        <th class="col_heading level0 col2">% Passing Math</th>        <th class="col_heading level0 col3">% Passing Reading</th>        <th class="col_heading level0 col4">% Overall Passing</th>    </tr>    <tr>        <th class="index_name level0">Total Students</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
+<table id="T_477df728_a949_11ea_ac65_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">Average Math Score</th>        <th class="col_heading level0 col1">Average Reading Score</th>        <th class="col_heading level0 col2">% Passing Math</th>        <th class="col_heading level0 col3">% Passing Reading</th>        <th class="col_heading level0 col4">% Overall Passing</th>    </tr>    <tr>        <th class="index_name level0">Total Students</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
                 <tr>
-                        <th id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9level0_row0" class="row_heading level0 row0">Small (&lt;1000)</th>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row0_col0" class="data row0 col0">83.828654</td>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row0_col1" class="data row0 col1">83.8</td>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row0_col2" class="data row0 col2">93.952484</td>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row0_col3" class="data row0 col3">96.040317</td>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row0_col4" class="data row0 col4">90.136789</td>
+                        <th id="T_477df728_a949_11ea_ac65_8863df8cd0c9level0_row0" class="row_heading level0 row0">Small (&lt;1000)</th>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col0" class="data row0 col0">83.828654</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col1" class="data row0 col1">83.828654</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col2" class="data row0 col2">93.952484</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col3" class="data row0 col3">96.040317</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row0_col4" class="data row0 col4">90.136789</td>
             </tr>
             <tr>
-                        <th id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9level0_row1" class="row_heading level0 row1">Medium (1000-2000)</th>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row1_col0" class="data row1 col0">83.372682</td>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row1_col1" class="data row1 col1">83.4</td>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row1_col2" class="data row1 col2">93.616522</td>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row1_col3" class="data row1 col3">96.773058</td>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row1_col4" class="data row1 col4">90.624267</td>
+                        <th id="T_477df728_a949_11ea_ac65_8863df8cd0c9level0_row1" class="row_heading level0 row1">Medium (1000-2000)</th>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col0" class="data row1 col0">83.372682</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col1" class="data row1 col1">83.372682</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col2" class="data row1 col2">93.616522</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col3" class="data row1 col3">96.773058</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row1_col4" class="data row1 col4">90.624267</td>
             </tr>
             <tr>
-                        <th id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9level0_row2" class="row_heading level0 row2">Large (2000-5000)</th>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row2_col0" class="data row2 col0">77.477597</td>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row2_col1" class="data row2 col1">77.5</td>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row2_col2" class="data row2 col2">68.652380</td>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row2_col3" class="data row2 col3">82.125158</td>
-                        <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row2_col4" class="data row2 col4">56.574046</td>
+                        <th id="T_477df728_a949_11ea_ac65_8863df8cd0c9level0_row2" class="row_heading level0 row2">Large (2000-5000)</th>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col0" class="data row2 col0">77.477597</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col1" class="data row2 col1">77.477597</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col2" class="data row2 col2">68.652380</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col3" class="data row2 col3">82.125158</td>
+                        <td id="T_477df728_a949_11ea_ac65_8863df8cd0c9row2_col4" class="data row2 col4">56.574046</td>
             </tr>
     </tbody></table>
 
@@ -755,22 +727,22 @@ As final considerations:
 * You must include a written description of at least two observable trends based on the data.
 * See [Example Solution](PyCitySchools/PyCitySchools_starter.ipynb) for a reference on the expected format.
 
-<table id="T_8dcdd00e_a90d_11ea_b01d_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">Average Math Score</th>        <th class="col_heading level0 col1">Average Reading Score</th>        <th class="col_heading level0 col2">% Passing Math</th>        <th class="col_heading level0 col3">% Passing Reading</th>        <th class="col_heading level0 col4">% Overall Passing</th>    </tr>    <tr>        <th class="index_name level0">Type of School</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
+<table id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">Average Math Score</th>        <th class="col_heading level0 col1">Average Reading Score</th>        <th class="col_heading level0 col2">% Passing Math</th>        <th class="col_heading level0 col3">% Passing Reading</th>        <th class="col_heading level0 col4">% Overall Passing</th>    </tr>    <tr>        <th class="index_name level0">Type of School</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
                 <tr>
-                        <th id="T_8dcdd00e_a90d_11ea_b01d_8863df8cd0c9level0_row0" class="row_heading level0 row0">Charter</th>
-                        <td id="T_8dcdd00e_a90d_11ea_b01d_8863df8cd0c9row0_col0" class="data row0 col0">83.406183</td>
-                        <td id="T_8dcdd00e_a90d_11ea_b01d_8863df8cd0c9row0_col1" class="data row0 col1">83.406183</td>
-                        <td id="T_8dcdd00e_a90d_11ea_b01d_8863df8cd0c9row0_col2" class="data row0 col2">93.701821</td>
-                        <td id="T_8dcdd00e_a90d_11ea_b01d_8863df8cd0c9row0_col3" class="data row0 col3">96.645891</td>
-                        <td id="T_8dcdd00e_a90d_11ea_b01d_8863df8cd0c9row0_col4" class="data row0 col4">90.560932</td>
+                        <th id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9level0_row0" class="row_heading level0 row0">Charter</th>
+                        <td id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9row0_col0" class="data row0 col0">83.406183</td>
+                        <td id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9row0_col1" class="data row0 col1">83.406183</td>
+                        <td id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9row0_col2" class="data row0 col2">93.701821</td>
+                        <td id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9row0_col3" class="data row0 col3">96.645891</td>
+                        <td id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9row0_col4" class="data row0 col4">90.560932</td>
             </tr>
             <tr>
-                        <th id="T_8dcdd00e_a90d_11ea_b01d_8863df8cd0c9level0_row1" class="row_heading level0 row1">District</th>
-                        <td id="T_8dcdd00e_a90d_11ea_b01d_8863df8cd0c9row1_col0" class="data row1 col0">76.987026</td>
-                        <td id="T_8dcdd00e_a90d_11ea_b01d_8863df8cd0c9row1_col1" class="data row1 col1">76.987026</td>
-                        <td id="T_8dcdd00e_a90d_11ea_b01d_8863df8cd0c9row1_col2" class="data row1 col2">66.518387</td>
-                        <td id="T_8dcdd00e_a90d_11ea_b01d_8863df8cd0c9row1_col3" class="data row1 col3">80.905249</td>
-                        <td id="T_8dcdd00e_a90d_11ea_b01d_8863df8cd0c9row1_col4" class="data row1 col4">53.695878</td>
+                        <th id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9level0_row1" class="row_heading level0 row1">District</th>
+                        <td id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9row1_col0" class="data row1 col0">76.987026</td>
+                        <td id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9row1_col1" class="data row1 col1">76.987026</td>
+                        <td id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9row1_col2" class="data row1 col2">66.518387</td>
+                        <td id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9row1_col3" class="data row1 col3">80.905249</td>
+                        <td id="T_498fe534_a94a_11ea_ac65_8863df8cd0c9row1_col4" class="data row1 col4">53.695878</td>
             </tr>
     </tbody></table>
 
