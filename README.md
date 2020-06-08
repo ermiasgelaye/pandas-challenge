@@ -9,7 +9,7 @@ This repository brings a python pandas solution in the education sector to analy
 
 ## Table of Contents
 * [Import Dependencies and Setup](https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb)
-* [Import Dependencies and Setup](https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb)
+* [Load, Read and Merge the Data](https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb)
 * [District Summary](https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb)
 * [School Summary](https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb)
 * [Top Performing Schools (By % Overall Passing)](https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb)
@@ -28,7 +28,20 @@ This repository brings a python pandas solution in the education sector to analy
 # Dependencies and Setup
 import pandas as pd
 ```
+### Load, Read and Merge the Data
+```python
+ # File to Load (Remember to Change These)
+school_data_to_load = "Resources/schools_complete.csv"
+student_data_to_load = "Resources/students_complete.csv"
 
+# Read School and Student Data File and store into Pandas DataFrames
+school_data = pd.read_csv(school_data_to_load)
+student_data = pd.read_csv(student_data_to_load)
+
+# Combine the data into a single dataset.  
+school_data_complete = pd.merge(student_data, school_data, how="left", on=["school_name", "school_name"])
+school_data_complete.head()
+```
 ### District Summary
 
 * A high level snapshot of the district's created on the following key metrics
