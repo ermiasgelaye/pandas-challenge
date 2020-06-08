@@ -656,8 +656,22 @@ school_data_complete.head()
   * % Passing Math (The percentage of students that passed math.)
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
- 
-<table id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9"><thead>    <tr>        <th class="blank level0"></th>        <th class="col_heading level0 col0">Average Math Score</th>        <th class="col_heading level0 col1">Average Reading Score</th>        <th class="col_heading level0 col2">% Passing Math</th>        <th class="col_heading level0 col3">% Passing Reading</th>        <th class="col_heading level0 col4">% Overall Passing</th>    </tr>    <tr>        <th class="index_name level0">Total Students</th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>        <th class="blank"></th>    </tr></thead><tbody>
+  
+ <table id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9"><thead>    
+ <tr>        <th class="blank level0"></th>        
+  <th class="col_heading level0 col0">Average Math Score</th>        
+  <th class="col_heading level0 col1">Average Reading Score</th>        
+  <th class="col_heading level0 col2">% Passing Math</th>        
+  <th class="col_heading level0 col3">% Passing Reading</th>       
+  <th class="col_heading level0 col4">% Overall Passing</th>    
+ </tr>    <tr>       
+ <th class="index_name level0">Total Students</th>        
+ <th class="blank"></th>        
+ <th class="blank"></th>        
+ <th class="blank"></th>        
+ <th class="blank"></th>        
+ <th class="blank"></th>    
+ </tr></thead><tbody>
                 <tr>
                         <th id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9level0_row0" class="row_heading level0 row0">Small (&lt;1000)</th>
                         <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row0_col0" class="data row0 col0">83.828654</td>
@@ -683,6 +697,7 @@ school_data_complete.head()
                         <td id="T_8dc60ce8_a90d_11ea_b01d_8863df8cd0c9row2_col4" class="data row2 col4">56.574046</td>
             </tr>
     </tbody></table>
+
 ### Scores by School Size
 
 * Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
