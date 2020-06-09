@@ -24,7 +24,7 @@ This repository brings a python pandas solution in the education sector to analy
 * The data revealed that when the number of students sizes higher in schools the average math scores, average reading scores, passing math, passing reading, and overall passing decrease. So, we can infer that, when student size rises, it negatively influences student achievement. Therefore, schools, cities, districts, and charters should work on student size in schools, and classes because it directly affects student achievement for so many reasons. 
 
 ## Table of Contents
-* [Import Dependencies and Setup](/### Import Dependencies and Setup)
+* [Import Dependencies and Setup](/Import Dependencies and Setup)
 * [Load, Read and Merge the Data](https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb)
 * [District Summary](https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb)
 * [School Summary](https://nbviewer.jupyter.org/github/ermiasgelaye/pandas-challenge/blob/master/PyCitySchools/.ipynb_checkpoints/PyCitySchools_starter-checkpoint.ipynb)
