@@ -720,7 +720,7 @@ A table of Reading Scores by Grade looks as follows:
 
 ### Scores by School Size
 
-* Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
+* The following table created by grouping schools based on a reasonable approximation of school size (Small, Medium, Large).
 
  A table of Scores by School Size looks as follows:
  
